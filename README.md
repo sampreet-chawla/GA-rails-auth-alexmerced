@@ -20,17 +20,18 @@ Source, Coding Tutorials Blog - [Ruby on Rails API with JWT Auth Tutorial](https
  - Step 3: Check the /db/seed.rb for admin details
  - Step 4: Start the rails server at port 4000 (rails server -p 4000) - 400 port was used for testing and is used in Postman. Please refer snapshots below and change port as desired.
  - Open Postman, and test the following URLs - 
-  *POST localhost:4000/login - Note the token from successful login. It will be required for authentication
-  *GET localhost:4000/auto_login - Auto login for an authorized user
-  *POST localhost:4000/notes - To create a note for an authorized user
-  *GET localhost:4000/notes - To fetch all notes for the authorizes user 
+ 
+  * POST localhost:4000/login - Note the token from successful login. It will be required for authentication
+  * GET localhost:4000/auto_login - Auto login for an authorized user
+  * POST localhost:4000/notes - To create a note for an authorized user
+  * GET localhost:4000/notes - To fetch all notes for the authorizes user 
 
 
 ### Testing Snapshots
 
 - Login by an authroized user
 
-  [](./img/01-login.png)
+  []("./img/01-login.png")
   
 - Auto-Login by an authorized user
 
